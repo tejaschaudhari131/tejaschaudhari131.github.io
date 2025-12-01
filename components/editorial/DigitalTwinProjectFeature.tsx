@@ -2,6 +2,33 @@ import React from "react";
 import { MacroGrid } from "../MacroGrid";
 import { ArrowUpRight, Github, Activity } from "lucide-react";
 import Link from "next/link";
+import { useEffect, useState } from "react";
+
+const Particles = () => {
+    const [particles, setParticles] = useState<Array<{ top: string; left: string; animation: string }>>([]);
+
+    useEffect(() => {
+        setParticles(
+            [...Array(5)].map(() => ({
+                top: `${Math.random() * 100}%`,
+                left: `${Math.random() * 100}%`,
+                animation: `float ${3 + Math.random() * 2}s linear infinite`,
+            }))
+        );
+    }, []);
+
+    return (
+        <>
+            {particles.map((style, i) => (
+                <div
+                    key={i}
+                    className="absolute w-1 h-1 bg-blue-400 rounded-full"
+                    style={style}
+                />
+            ))}
+        </>
+    );
+};
 
 export const DigitalTwinProjectFeature = () => {
     return (
@@ -155,16 +182,7 @@ export const DigitalTwinProjectFeature = () => {
 
                                 {/* Data Stream Particles */}
                                 <div className="absolute inset-0 overflow-hidden opacity-30">
-                                    {[...Array(5)].map((_, i) => (
-                                        <div key={i}
-                                            className="absolute w-1 h-1 bg-blue-400 rounded-full"
-                                            style={{
-                                                top: `${Math.random() * 100}%`,
-                                                left: `${Math.random() * 100}%`,
-                                                animation: `float ${3 + Math.random() * 2}s linear infinite`
-                                            }}
-                                        />
-                                    ))}
+                                    <Particles />
                                 </div>
 
                                 {/* Virtual HUD */}
