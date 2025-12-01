@@ -33,13 +33,13 @@ export const ManifestoHero = () => {
 
     return (
         <section
-            className="min-h-[90vh] flex items-center relative overflow-hidden"
+            className="min-h-[85vh] md:min-h-[90vh] flex items-center relative overflow-hidden py-12 md:py-0"
             onMouseMove={handleMouseMove}
             ref={ref}
         >
             <MacroGrid className="w-full relative z-10">
-                <div className="md:col-span-8 flex flex-col justify-end pb-12">
-                    <h1 className="font-display text-[8vw] md:text-[7vw] leading-[0.85] font-bold tracking-tighter text-foreground mb-4 break-words">
+                <div className="md:col-span-8 flex flex-col justify-end pb-8 md:pb-12 order-2 md:order-1">
+                    <h1 className="font-display text-[12vw] md:text-[7vw] leading-[0.85] font-bold tracking-tighter text-foreground mb-4 break-words">
                         TEJARAM <br /> CHAUDHARI
                     </h1>
 
@@ -92,11 +92,11 @@ export const ManifestoHero = () => {
                     </div>
                 </div>
 
-                <div className="md:col-span-4 relative h-[50vh] md:h-auto flex items-center justify-center">
+                <div className="md:col-span-4 relative h-[40vh] md:h-auto flex items-center justify-center order-1 md:order-2 mb-8 md:mb-0">
                     {/* 3D Parallax Image Container */}
                     <motion.div
                         style={{ rotateX, rotateY, transformStyle: "preserve-3d" }}
-                        className="relative w-full aspect-[3/4] max-w-md"
+                        className="relative w-full aspect-[3/4] max-w-[280px] md:max-w-md"
                     >
                         {/* Image Layer */}
                         <div className="absolute inset-0 bg-gray-200 overflow-hidden grayscale contrast-125">

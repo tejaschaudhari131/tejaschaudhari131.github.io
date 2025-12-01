@@ -32,7 +32,7 @@ const Particles = () => {
 
 export const DigitalTwinProjectFeature = () => {
     return (
-        <section className="py-24 text-black border-t border-gray-200">
+        <section className="py-12 md:py-24 text-black border-t border-gray-200">
             <MacroGrid>
                 {/* Header & Narrative */}
                 <div className="md:col-span-5 flex flex-col justify-between h-full">
@@ -44,7 +44,7 @@ export const DigitalTwinProjectFeature = () => {
                             </span>
                         </div>
 
-                        <h2 className="font-display text-5xl md:text-6xl font-bold leading-tight mb-2">
+                        <h2 className="font-display text-4xl md:text-6xl font-bold leading-tight mb-2">
                             Secure Digital Twin for IoT Networks
                         </h2>
                         <p className="font-display text-xl text-gray-400 mb-4">
@@ -202,7 +202,7 @@ export const DigitalTwinProjectFeature = () => {
                     </div>
 
                     {/* Metrics Grid */}
-                    <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-8">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
                         <div className="p-4 bg-gray-50 rounded-lg border border-gray-100">
                             <span className="block text-xs font-mono text-gray-400 uppercase mb-2">Latency</span>
                             <span className="block text-2xl font-bold text-black">&lt; 200ms</span>
