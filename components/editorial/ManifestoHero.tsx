@@ -99,7 +99,7 @@ export const ManifestoHero = () => {
                         className="relative w-full aspect-[3/4] max-w-[280px] md:max-w-md"
                     >
                         {/* Image Layer */}
-                        <div className="absolute inset-0 bg-gray-200 overflow-hidden grayscale contrast-125">
+                        <div className="absolute inset-0 bg-gray-200 overflow-hidden md:grayscale md:contrast-125">
                             <img
                                 src="/me.jpg"
                                 alt="Tejaram Chaudhari"

@@ -86,7 +86,7 @@ export const DroneProjectFeature = () => {
                         <img
                             src="/projects/drone_f450.jpg"
                             alt="F450 Drone Setup"
-                            className="w-full h-full object-cover opacity-90 transition-all duration-700 filter grayscale contrast-125 group-hover:filter-none group-hover:opacity-100 group-hover:scale-105"
+                            className="w-full h-full object-cover opacity-90 transition-all duration-700 md:filter md:grayscale md:contrast-125 md:group-hover:filter-none md:group-hover:opacity-100 md:group-hover:scale-105"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                     </div>

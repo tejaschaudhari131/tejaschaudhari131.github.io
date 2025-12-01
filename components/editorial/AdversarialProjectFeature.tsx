@@ -57,7 +57,7 @@ export const AdversarialProjectFeature = () => {
                 {/* Visuals & Code */}
                 <div className="md:col-span-7 mt-12 md:mt-0 pl-0 md:pl-12">
                     {/* Code Snippet Card */}
-                    <div className="bg-[#1e1e1e] rounded-xl overflow-hidden shadow-2xl mb-8 group transition-all duration-700 filter grayscale contrast-125 hover:filter-none">
+                    <div className="bg-[#1e1e1e] rounded-xl overflow-hidden shadow-2xl mb-8 group transition-all duration-700 md:filter md:grayscale md:contrast-125 md:hover:filter-none">
                         <div className="flex items-center justify-between px-4 py-3 bg-[#252526] border-b border-[#333]">
                             <div className="flex items-center gap-2">
                                 <Terminal size={14} className="text-gray-400" />

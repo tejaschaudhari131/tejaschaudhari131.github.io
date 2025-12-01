@@ -118,7 +118,7 @@ export const DigitalTwinProjectFeature = () => {
                     {/* Split Screen Visual */}
                     <div className="bg-gray-900 rounded-xl overflow-hidden mb-8 relative group aspect-video shadow-2xl">
                         {/* Split Screen Visual */}
-                        <div className="w-full h-full flex relative group-hover:scale-[1.02] transition-all duration-700 filter grayscale contrast-125 group-hover:filter-none">
+                        <div className="w-full h-full flex relative group-hover:scale-[1.02] transition-all duration-700 md:filter md:grayscale md:contrast-125 md:group-hover:filter-none">
                             {/* Left: Physical World */}
                             <div className="w-1/2 bg-gray-900 relative overflow-hidden border-r border-gray-700">
                                 <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-60 mix-blend-overlay grayscale" />
