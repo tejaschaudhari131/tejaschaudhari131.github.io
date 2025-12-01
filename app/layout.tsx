@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, JetBrains_Mono, Syne } from "next/font/google";
 import "./globals.css";
 import { ViewProvider } from "../context/ViewContext";
@@ -23,6 +23,13 @@ const syne = Syne({
 export const metadata: Metadata = {
   title: "Tejaram Chaudhari | Editorial Lab",
   description: "Cyber-Physical Systems Researcher & Founder",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
 };
 
 export default function RootLayout({
