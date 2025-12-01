@@ -33,13 +33,13 @@ export const ManifestoHero = () => {
 
     return (
         <section
-            className="min-h-[85vh] md:min-h-[90vh] flex items-center relative overflow-hidden py-12 md:py-0"
+            className="min-h-[85vh] md:min-h-[90vh] flex items-center relative overflow-hidden py-8 md:py-0"
             onMouseMove={handleMouseMove}
             ref={ref}
         >
             <MacroGrid className="w-full relative z-10">
                 <div className="md:col-span-8 flex flex-col justify-end pb-8 md:pb-12 order-2 md:order-1">
-                    <h1 className="font-display text-[12vw] md:text-[7vw] leading-[0.85] font-bold tracking-tighter text-foreground mb-4 break-words">
+                    <h1 className="font-display text-[10vw] md:text-[7vw] leading-[0.85] font-bold tracking-tighter text-foreground mb-4 break-words">
                         TEJARAM <br /> CHAUDHARI
                     </h1>
 

@@ -32,7 +32,7 @@ const Particles = () => {
 
 export const DigitalTwinProjectFeature = () => {
     return (
-        <section className="py-12 md:py-24 text-black border-t border-gray-200">
+        <section className="py-8 md:py-24 text-black border-t border-gray-200">
             <MacroGrid>
                 {/* Header & Narrative */}
                 <div className="md:col-span-5 flex flex-col justify-between h-full">
@@ -44,7 +44,7 @@ export const DigitalTwinProjectFeature = () => {
                             </span>
                         </div>
 
-                        <h2 className="font-display text-4xl md:text-6xl font-bold leading-tight mb-2">
+                        <h2 className="font-display text-3xl md:text-6xl font-bold leading-tight mb-2">
                             Secure Digital Twin for IoT Networks
                         </h2>
                         <p className="font-display text-xl text-gray-400 mb-4">
