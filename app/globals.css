@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #FAFAFA;
+  --color-foreground: #111827;
+  --color-border: #E5E7EB;
+  --color-accent: #FF4F00;
+  --color-accent-indigo: #4F46E5;
+
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
+  --font-display: var(--font-syne);
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
+
+/* Custom Utilities if needed */
+.font-display {
+  font-family: var(--font-display);
+}

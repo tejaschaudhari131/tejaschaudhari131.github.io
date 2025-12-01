@@ -1,0 +1,20 @@
+
+> cyber_physical_portfolio@0.1.0 lint
+> eslint
+
+
+Oops! Something went wrong! :(
+
+ESLint: 8.57.1
+
+Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './config' is not defined by "exports" in C:\Users\tejas\.gemini\antigravity\scratch\cyber_physical_portfolio\node_modules\eslint\package.json imported from C:\Users\tejas\.gemini\antigravity\scratch\cyber_physical_portfolio\eslint.config.mjs
+    at exportsNotFound (node:internal/modules/esm/resolve:304:10)
+    at packageExportsResolve (node:internal/modules/esm/resolve:651:9)
+    at packageResolve (node:internal/modules/esm/resolve:837:14)
+    at moduleResolve (node:internal/modules/esm/resolve:927:18)
+    at defaultResolve (node:internal/modules/esm/resolve:1157:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:383:12)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:352:25)
+    at ModuleLoader.getModuleJob (node:internal/modules/esm/loader:227:38)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/module_job:87:39)
+    at link (node:internal/modules/esm/module_job:86:36)
